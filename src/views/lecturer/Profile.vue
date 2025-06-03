@@ -2,10 +2,10 @@
   <section class="lecturer-profile container">
     <h2 class="title">Profil Dosen</h2>
     <ul class="profile-list">
-      <li><strong>Nama:</strong> Dr. Ahmad Fauzi</li>
+      <li><strong>Nama:</strong>M RIZKI FADHILAH, S.T.,M.Eng</li>
       <li><strong>NIP:</strong> 19800301 201001 1 002</li>
-      <li><strong>Fakultas:</strong> Ilmu Komputer</li>
-      <li><strong>Email:</strong> ahmad.fauzi@example.com</li>
+      <li><strong>Fakultas:</strong> TEKNIK INFORMATIKA</li>
+      <li><strong>Email:</strong> m.rizki.fadhilah@example.com</li>
     </ul>
     <router-view />
   </section>

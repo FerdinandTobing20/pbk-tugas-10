@@ -24,7 +24,7 @@ export default {
   data() {
     return {
       grades: [
-        { course: "Algoritma dan Struktur Data", grade: "A" },
+        { course: "Pemrograman Berbasis Komponen", grade: "A" },
         { course: "Basis Data", grade: "B+" },
         { course: "Pemrograman Web", grade: "A-" },
         { course: "Sistem Operasi", grade: "B" },

@@ -16,7 +16,7 @@ export default {
   data() {
     return {
       courses: [
-        "Algoritma dan Pemrograman",
+        "Pemrograman Berbasis Komponen",
         "Jaringan Komputer",
         "Rekayasa Perangkat Lunak",
       ],

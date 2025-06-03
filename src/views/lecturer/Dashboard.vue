@@ -3,8 +3,8 @@
     <aside class="sidebar">
       <div class="profile-section">
         <div class="avatar">👨‍🏫</div>
-        <h3>Dr. Ahmad Fauzi</h3>
-        <p>Ilmu Komputer</p>
+        <h3></h3>
+        <p>Teknik Informatika</p>
       </div>
 
       <nav class="menu">
@@ -18,7 +18,7 @@
 
     <main class="main-content">
       <h1>Dashboard Dosen</h1>
-      <p>Selamat datang kembali, <strong>Dr. Ahmad Fauzi</strong>!</p>
+      <p>Selamat datang kembali, <strong>M RIZKI FADHILAH, S.T.,M.Eng</strong>!</p>
 
       <div class="summary-cards">
         <div class="card">

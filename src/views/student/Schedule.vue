@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       schedule: [
-        { day: "Senin", course: "Algoritma & Struktur Data", time: "08:00 - 10:00", room: "Lab 1" },
+        { day: "Senin", course: "Pemrograman berbasis komponen", time: "08:00 - 10:00", room: "Lab 1" },
         { day: "Selasa", course: "Basis Data", time: "10:00 - 12:00", room: "Lab 2" },
         { day: "Rabu", course: "Pemrograman Web", time: "13:00 - 15:00", room: "Ruang 3A" },
         { day: "Kamis", course: "Sistem Operasi", time: "08:00 - 10:00", room: "Ruang 2B" },

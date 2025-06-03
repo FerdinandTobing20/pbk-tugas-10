@@ -2,7 +2,7 @@
   <section class="lecturer-students container">
     <h2 class="title">Daftar Mahasiswa</h2>
     <ul class="student-list">
-      <li>Andi Saputra (190001)</li>
+      <li>ferdinandtobing (233510397)</li>
       <li>Budi Santoso (190002)</li>
       <li>Citra Dewi (190003)</li>
     </ul>

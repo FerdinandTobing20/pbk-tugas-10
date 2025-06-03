@@ -16,9 +16,7 @@ export default {
   data() {
     return {
       courses: [
-        'Pemrograman Web',
-        'Sistem Basis Data',
-        'Struktur Data'
+        'Pemrograman Berbasis Komponen'
       ]
     }
   }

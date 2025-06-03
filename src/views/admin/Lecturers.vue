@@ -16,9 +16,7 @@ export default {
   data() {
     return {
       lecturers: [
-        "Dr. Ahmad Fauzi",
-        "Dra. Siti Nurhaliza",
-        "M. Arifin, M.Kom",
+        "M RIZKI FADHILAH, S.T.,M.Eng"
       ],
     }
   }

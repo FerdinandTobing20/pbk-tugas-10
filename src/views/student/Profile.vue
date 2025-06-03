@@ -17,9 +17,9 @@ export default {
   data() {
     return {
       profile: {
-        name: "Ahmad Zulkarnain",
-        studentId: "20211040123",
-        email: "ahmad.zul@student.edu",
+        name: "Ferdinand Tobing",
+        studentId: "233510397",
+        email: "ferdinandtobing@studen.uir.ac.id",
         major: "Teknik Informatika",
         semester: 6
       }

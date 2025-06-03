@@ -28,10 +28,10 @@
 
 <script>
 const studentProfile = {
-  name: "Ahmad Zulkarnain",
-  studentId: "20211040123",
+  name: "Ferdinand Tobing",
+  studentId: "233510397",
   major: "Teknik Informatika",
-  semester: 6
+  semester: 4
 };
 
 export default {

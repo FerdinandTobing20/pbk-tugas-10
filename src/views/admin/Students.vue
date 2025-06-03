@@ -2,7 +2,7 @@
   <section class="admin-students container">
     <h2>Manajemen Mahasiswa</h2>
     <ul class="student-list">
-      <li>Raka Putra - <span class="student-id">210001</span></li>
+      <li>Ferdinand Tobing - <span class="student-id">233510397</span></li>
       <li>Mira Sari - <span class="student-id">210002</span></li>
       <li>Dito Pratama - <span class="student-id">210003</span></li>
     </ul>

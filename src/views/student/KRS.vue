@@ -26,7 +26,7 @@ export default {
   data() {
     return {
       krs: [
-        { code: 'IF101', name: 'Algoritma dan Pemrograman', credits: 3 },
+        { code: 'IF101', name: 'Pemrograman Berbasis Komponen', credits: 3 },
         { code: 'IF102', name: 'Struktur Data', credits: 3 },
         { code: 'IF103', name: 'Basis Data', credits: 3 },
         { code: 'IF104', name: 'Sistem Operasi', credits: 2 },
