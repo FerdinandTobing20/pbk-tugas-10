@@ -8,18 +8,22 @@
       <li><strong>Jurusan:</strong> {{ profile.major }}</li>
       <li><strong>Semester:</strong> {{ profile.semester }}</li>
     </ul>
-        <router-view />
   </div>
 </template>
 
 <script>
-
 export default {
   name: 'StudentProfile',
   data() {
     return {
-      profile: studentProfile,
-    }
+      profile: {
+        name: "Ahmad Zulkarnain",
+        studentId: "20211040123",
+        email: "ahmad.zul@student.edu",
+        major: "Teknik Informatika",
+        semester: 6
+      }
+    };
   }
-}
+};
 </script>

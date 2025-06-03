@@ -15,17 +15,21 @@
         </tr>
       </tbody>
     </table>
-        <router-view />
   </div>
 </template>
 
 <script>
-
 export default {
   name: 'StudentGrades',
   data() {
     return {
-      grades: studentGrades,
+      grades: [
+        { course: "Algoritma dan Struktur Data", grade: "A" },
+        { course: "Basis Data", grade: "B+" },
+        { course: "Pemrograman Web", grade: "A-" },
+        { course: "Sistem Operasi", grade: "B" },
+        { course: "Jaringan Komputer", grade: "A" }
+      ]
     }
   }
 }

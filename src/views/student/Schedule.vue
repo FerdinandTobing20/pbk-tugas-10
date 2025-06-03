@@ -20,17 +20,21 @@
       </tbody>
     </table>
   </div>
-      <router-view />
 </template>
 
 <script>
-
 export default {
   name: 'StudentSchedule',
   data() {
     return {
-      schedule: studentSchedule,
-    }
+      schedule: [
+        { day: "Senin", course: "Algoritma & Struktur Data", time: "08:00 - 10:00", room: "Lab 1" },
+        { day: "Selasa", course: "Basis Data", time: "10:00 - 12:00", room: "Lab 2" },
+        { day: "Rabu", course: "Pemrograman Web", time: "13:00 - 15:00", room: "Ruang 3A" },
+        { day: "Kamis", course: "Sistem Operasi", time: "08:00 - 10:00", room: "Ruang 2B" },
+        { day: "Jumat", course: "Kecerdasan Buatan", time: "09:00 - 11:00", room: "Lab AI" }
+      ]
+    };
   }
 }
 </script>

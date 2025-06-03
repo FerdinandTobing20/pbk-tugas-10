@@ -17,19 +17,22 @@
         </tr>
       </tbody>
     </table>
-
-    <router-view />
   </div>
 </template>
 
 <script>
-
 export default {
   name: 'StudentKRS',
   data() {
     return {
-      krs: studentKRS,
-    }
+      krs: [
+        { code: 'IF101', name: 'Algoritma dan Pemrograman', credits: 3 },
+        { code: 'IF102', name: 'Struktur Data', credits: 3 },
+        { code: 'IF103', name: 'Basis Data', credits: 3 },
+        { code: 'IF104', name: 'Sistem Operasi', credits: 2 },
+        { code: 'IF105', name: 'Jaringan Komputer', credits: 2 }
+      ]
+    };
   }
 }
 </script>

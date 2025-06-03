@@ -32,7 +32,6 @@ const routes = [
     path: '/student',
     component: StudentDashboard,
     children: [
-      { path: '', name: 'StudentDashboard', component: StudentDashboard },
       { path: 'schedule', name: 'StudentSchedule', component: StudentSchedule },
       { path: 'krs', name: 'StudentKRS', component: StudentKRS },
       { path: 'grades', name: 'StudentGrades', component: StudentGrades },

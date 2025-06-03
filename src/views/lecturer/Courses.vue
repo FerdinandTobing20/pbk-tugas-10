@@ -2,16 +2,25 @@
   <div>
     <h2>Mata Kuliah Diampu</h2>
     <ul>
-      <li>Pemrograman Web</li>
-      <li>Sistem Basis Data</li>
-      <li>Struktur Data</li>
+      <li v-for="(course, index) in courses" :key="index">
+        {{ course }}
+      </li>
     </ul>
+    <router-view />
   </div>
-      <router-view />
 </template>
 
 <script>
 export default {
-  name: 'LecturerCourses'
+  name: 'LecturerCourses',
+  data() {
+    return {
+      courses: [
+        'Pemrograman Web',
+        'Sistem Basis Data',
+        'Struktur Data'
+      ]
+    }
+  }
 }
 </script>
